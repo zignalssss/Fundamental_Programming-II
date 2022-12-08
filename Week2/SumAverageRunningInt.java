@@ -9,10 +9,10 @@ public class SumAverageRunningInt {
         int sum=0;
         int i=lowerBound;
         float avg;
-        while(i<=upperBound){
+        do{
             sum+=i;
             i++;
-        }
+        }while(i<=upperBound);
         avg = sum/(float)upperBound;
         System.out.println("The sum of " + lowerBound + " to " + upperBound + " is " + sum);
         System.out.printf("The average is %.1f ",avg);
