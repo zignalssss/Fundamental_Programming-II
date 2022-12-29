@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 public class Grader {
-    private final String course;
+    private final String COURSE;
     ArrayList<Double> arrayList = new ArrayList<Double>();  //สร้าง Object ของ ArrayList
     public Grader(String name){
-        this.course = name;        //เป็น Constructor รับชื่อวิชาเป็น Argument
+        this.COURSE = name;        //เป็น Constructor รับชื่อวิชาเป็น Argument
     }
     public void addScores(double score){
         arrayList.add(score);      //ใช้ add ค่าเข้าไปใน ArrayList
@@ -62,6 +62,6 @@ public class Grader {
         System.out.printf("Grade : A %d, B+ %d, B %d, C+ %d, C %d, D+ %d, D %d, F %d ",A,BPlus,B,CPlus,C,DPlus,D,F);
     }
     public String getCourseName(){
-        return course;
+        return COURSE;
     }
 }
