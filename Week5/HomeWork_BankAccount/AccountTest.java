@@ -34,7 +34,7 @@ public class AccountTest {
             i++;
         }
         while (j <= 4){
-            System.out.print("Choose Account: ");
+            System.out.print("\nChoose Account: ");
             choose = scn.next();
             for(BankAccount acc : account){
                 if(choose.equals(acc.getAccountNumber())) {
