@@ -9,9 +9,15 @@ public class BankAccount {
         this.accountNumber = accountNumber;
         this.balance = balance;
     }
-    public String getCustomerName(){return this.customerName;}
-    public void setCustomerName(String name){this.customerName = name;}
-    public String getAccountNumber(){return this.accountNumber;}
+    public String getCustomerName(){
+        return this.customerName;
+    }
+    public void setCustomerName(String name){
+        this.customerName = name;
+    }
+    public String getAccountNumber(){
+        return this.accountNumber;
+    }
     public void setAccountNumber(String number){
         this.accountNumber = number;
     }
